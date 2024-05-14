@@ -8,11 +8,11 @@ class Body extends React.Component{
     render(){
         return(
             <div className="body-container">
-                <p>Problem highlight</p>
+                <p className="problem-highlight">Problem highlight</p>
                 <CloseContainer />
-                <h2>What makes us different?</h2>
+                <h2 className="difference-title">What makes us different?</h2>
                 <DifferenceSection />
-                <p>Time travel and CTA</p>
+                <p className="CTA">Time travel and CTA</p>
             </div>
         )
     }

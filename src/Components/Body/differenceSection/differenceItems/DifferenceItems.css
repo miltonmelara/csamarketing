@@ -1,0 +1,9 @@
+.differenceItem{
+    display: block;
+    border: 1px solid white;
+}
+.difference-items-container{
+    display: flex;
+    justify-content: space-evenly; /* Equal space around items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}

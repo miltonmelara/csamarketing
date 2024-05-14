@@ -27,7 +27,7 @@ const DifferenceItem = () => {
       <CustomComponent key={index} title={data.title} description={data.description} />
     ));
 
-    return <div>{components}</div>;
+    return <div className='difference-items-container'>{components}</div>;
   };
 
   return <GenerateComponents />;

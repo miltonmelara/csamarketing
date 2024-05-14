@@ -1,0 +1,11 @@
+    .closeItem {
+    flex: 1 1 200px; /* Equal width for each item with a minimum width of 200px */
+    margin: 10px; /* Adjust margin as needed */
+    text-align: center; /* Center content horizontally */
+    border: 1px solid white;
+  }
+
+  .close-title{
+    text-align: left;
+    margin: 50px;
+  }

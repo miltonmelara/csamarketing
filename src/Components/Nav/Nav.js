@@ -7,8 +7,8 @@ class Nav extends React.Component {
     render(){
         return(
             <header className='Nav-container'>
-                <div className='logo'>
-                    <img src={logo} alt='logo'/>
+                <div className='logo-container'>
+                    <img className='logo' src={logo} alt='logo'/>
                 </div>
                 <nav>
                     <p id='home'>Home</p>

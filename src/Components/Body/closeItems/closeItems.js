@@ -27,7 +27,7 @@ const CloseItem = () => {
       <CustomComponent key={index} title={data.title} description={data.description} />
     ));
 
-    return <div>{components}</div>;
+    return <div className='close-items-container'>{components}</div>;
   };
 
   return <GenerateComponents />;
