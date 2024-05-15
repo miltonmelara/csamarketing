@@ -1,6 +1,7 @@
 .differenceItem{
     display: block;
     border: 1px solid white;
+    font-size: 13px;
 }
 .difference-items-container{
     display: flex;

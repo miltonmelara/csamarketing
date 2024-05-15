@@ -7,8 +7,8 @@ const CloseItem = () => {
   const CustomComponent = ({ className, title, description }) => {
     return (
       <div className='closeItem'>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h4>{title}</h4>
+        <p className='description'>{description}</p>
       </div>
     );
   };
@@ -17,9 +17,9 @@ const CloseItem = () => {
   const GenerateComponents = () => {
     // Define the data for each instance
     const componentData = [
-      { title: 'Component 1', description: 'Description for Component 1' },
-      { title: 'Component 2', description: 'Description for Component 2' },
-      { title: 'Component 3', description: 'Description for Component 3' }
+      { title: ' Do Everything Yourself?', description: "While the DIY approach may seem cost-effective, it's not always feasible when you're juggling multiple responsibilities. Your time is precious, and spreading yourself too thin could hinder your business growth." },
+      { title: 'Hire an Agency?', description: 'Many agencies promise results, but not all deliver. Generic strategies and lack of personalized attention can leave you feeling disconnected. Plus, exorbitant fees often mean your account is managed by someone far removed from the frontline.' },
+      { title: 'Our Model', description: "Partnering with us means more than just another service provider. We become an integral part of your team, understanding your goals intimately. As locals, we're embedded in your market, ensuring strategies are tailored and effective." }
     ];
 
     // Generate and render each component

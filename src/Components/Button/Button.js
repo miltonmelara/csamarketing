@@ -6,7 +6,7 @@ class Button extends React.Component{
     render(){
         return(
             <div className='buttonHolder'>
-                <button>I want this!</button>
+                <button className='want-this-button'>I want this!</button>
             </div>
         )
     }

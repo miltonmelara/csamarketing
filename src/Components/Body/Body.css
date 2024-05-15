@@ -1,9 +1,17 @@
-.problem-highlight{
+.problem-highlight-container{
     border-bottom: 1px solid white;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
 }
 
 .difference-title{
     text-align: left;
     margin: 50px;
+}
+
+.problem-highlight{
+    width: 50%;
+    text-align: center;
 }

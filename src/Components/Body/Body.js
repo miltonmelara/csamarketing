@@ -8,9 +8,11 @@ class Body extends React.Component{
     render(){
         return(
             <div className="body-container">
-                <p className="problem-highlight">Problem highlight</p>
+                <div className="problem-highlight-container">
+                    <p className="problem-highlight">Marketing is crucial, but it often gets buried under everything else you've got going on. As a business owner, you know how hectic things can get.</p>
+                </div>
                 <CloseContainer />
-                <h2 className="difference-title">What makes us different?</h2>
+                <h3 className="difference-title">"Okay... But What Makes You Different?"</h3>
                 <DifferenceSection />
                 <p className="CTA">Time travel and CTA</p>
             </div>

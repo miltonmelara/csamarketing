@@ -6,7 +6,8 @@ class Header extends React.Component {
     render(){
         return (
             <div className='header-contaniner'>
-                <h1>Title</h1>
+                <h1>More Growth. More Customers.</h1>
+                <h1><em>Guaranteed.</em></h1>
             </div>
         )
     }

@@ -4,7 +4,7 @@
   color: #f1f1f1;
 }
 
-h1{
+em{
   color: #ee3834;
 }
 
@@ -41,4 +41,22 @@ h1{
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.description{
+  margin: 20px;
+  text-align: center;
+  white-space: pre-wrap;
 }

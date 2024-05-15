@@ -7,8 +7,8 @@ const DifferenceItem = () => {
   const CustomComponent = ({ className, title, description }) => {
     return (
       <div className='differenceItem'>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h4>{title}</h4>
+        <p className='description'>{description}</p>
       </div>
     );
   };
@@ -17,9 +17,9 @@ const DifferenceItem = () => {
   const GenerateComponents = () => {
     // Define the data for each instance
     const componentData = [
-      { title: 'Component 1', description: 'Description for Component 1' },
-      { title: 'Component 2', description: 'Description for Component 2' },
-      { title: 'Component 3', description: 'Description for Component 3' }
+      { title: 'Guarantee', description: "We believe in shared success. Our 100% ROI guarantee means we only win when you win. No more bearing all the risk alone. We're in this together." },
+      { title: 'Local Expertise', description: "As locals, we have a deep understanding of your market's nuances. We're on the frontline, ensuring your strategies resonate with your target audience." },
+      { title: 'Specialization', description: 'We specialize in serving construction businesses, offering tailored solutions that deliver targeted and impactful results.' }
     ];
 
     // Generate and render each component

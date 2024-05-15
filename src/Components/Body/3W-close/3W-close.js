@@ -7,7 +7,7 @@ class CloseContainer extends React.Component{
     render(){
         return (
             <div className='close-container'>
-                <h2 className='close-title'>So you have three options:</h2>
+                <h3 className='close-title'>So How Do You Get the Most Out of Your Marketing?</h3>
                 <CloseItem />
             </div>
         )
