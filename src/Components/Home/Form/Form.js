@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Form.css';
+import { SectionContext } from '../../../SectionContext';
 
 const ApplicationForm = () => {
   const handleSubmit = async (e) => {
@@ -18,8 +19,10 @@ const ApplicationForm = () => {
     }
   };
 
+  const { formRef } = useContext(SectionContext);
+
   return (
-    <div className="application-form-container">
+    <div className="application-form-container" id='form' ref={formRef}>
       <h2 className='form-title'>Apply for a Marketing Strategy Session</h2>
       <form className="application-form" onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbxQMctfjWO0CeH-PLTnkkQkL3-zaGwzUCttlFAZ_EVNSdWPkrjO71H8jOJdzj-kfeLh/exec">
         <div className="form-group">

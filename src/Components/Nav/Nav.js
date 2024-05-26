@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./Nav.css"
 import logo from "./logo.png"
+import { Link } from 'react-router-dom';
 
 class Nav extends React.Component {
     render(){
@@ -11,8 +12,14 @@ class Nav extends React.Component {
                     <img className='logo' src={logo} alt='logo'/>
                 </div>
                 <nav>
-                    <p id='home'>Home</p>
-                    <p id='blog'>Blog</p>
+                    <ul>
+                        <li id='home'>
+                            <Link to='/'>Home</Link>
+                        </li>
+                        <li id='blog'>
+                            <Link to='/'>Blog</Link>
+                        </li>
+                    </ul>
                 </nav>
             </header>
         )

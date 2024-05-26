@@ -1,0 +1,24 @@
+.blog-items-container{
+    width: 80%;
+    background-color: #3d4856;
+    height: 35%;
+    border-radius: 10px;
+    gap: 30px;
+}
+.blogItem {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start;
+    padding: 20px 0px 20px 0px;
+    max-height: 200px; /* Set maximum height */
+    text-align: left;
+  }
+
+img{
+    width: 50.5%;
+    height: auto;
+    border-radius: 10px;
+    align-self: left;
+}
+
+

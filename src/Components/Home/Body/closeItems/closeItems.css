@@ -1,10 +1,19 @@
-.differenceItem{
+.closeItem{
     display: block;
-    border: 1px solid white;
     font-size: 13px;
+    padding: 20px;
 }
-.difference-items-container{
+.close-items-container{
     display: flex;
     justify-content: space-evenly; /* Equal space around items */
     flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin: 10px;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 70px;
 }

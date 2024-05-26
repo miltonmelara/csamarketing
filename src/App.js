@@ -1,20 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './Components/Nav/Nav';
-import Header from './Components/header/header';
-import Button from './Components/Button/Button'
-import Body from './Components/Body/Body';
-import ApplicationForm from './Components/Form/Form';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './Components/Home/home'
+import Nav from './Components/Nav/Nav'
+import BlogsContainer from './Components/Blog/blogPage'
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Header />
-      <Button />
-      <Body />
-      <ApplicationForm />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route exact path='/' Component={Home}/>
+          <Route path='/blog' Component={BlogsContainer}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

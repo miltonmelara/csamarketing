@@ -1,45 +1,47 @@
 .Nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: solid 1px white;
-  }
-  
-  .logo-container {
-    width: 50%; /* Share half of the header's space */
-    display: flex;
-  }
-  
-  .logo {
-    height: 100px; /* Square logo with 100px height */
-    width: auto; /* Square logo with 100px width */
-  }
-  
-  nav {
-    width: 50%; /* Share half of the header's space */
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  nav p {
-    margin: 0;
-  }
-  
-  /* Responsive Styling */
-  @media (max-width: 768px) {
-    .Nav-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .logo {
-      width: 100%; /* Occupy full width */
-      margin-bottom: 10px;
-    }
-  
-    nav {
-      width: 100%; /* Occupy full width */
-    }
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid 1px white;
+}
+
+.logo-container {
+  width: 50%; /* Share half of the header's space */
+  display: flex;
+}
+
+.logo {
+  height: 100px; /* Square logo with 100px height */
+  width: auto; /* Square logo with 100px width */
+}
+
+nav {
+  width: 50%; /* Share half of the header's space */  }
+
+nav p {
+  margin: 0;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  display: inline-block;
+}
+
+a{
+  color: inherit; /* Removes the default link color */
+  text-decoration: none; /* Removes the underline */
+  font-weight: inherit; /* Inherits font weight from the parent */
+  font-size: inherit; /* Inherits font size from the parent */
+  line-height: inherit; /* Inherits line height from the parent */
+  background-color: transparent; /* Removes background color */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+  border: none; /* Removes border */
+  cursor: pointer; /* Ensures the cursor shows the pointer (hand) */
+}
+
+
