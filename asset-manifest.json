@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a16c9fce.css",
-    "main.js": "/static/js/main.63acc2c1.js",
+    "main.css": "/static/css/main.6e47260a.css",
+    "main.js": "/static/js/main.c0660b51.js",
     "static/js/453.39160ccf.chunk.js": "/static/js/453.39160ccf.chunk.js",
+    "static/media/businessGrowthImage.png": "/static/media/businessGrowthImage.df6df97aac92891fc479.png",
+    "static/media/Partnership.png": "/static/media/Partnership.830c28ca813fe2841ecb.png",
+    "static/media/Specialization.png": "/static/media/Specialization.4b65460c42a7938cad00.png",
+    "static/media/Local.png": "/static/media/Local.b8ca36049f0bf1b85123.png",
+    "static/media/Agency.png": "/static/media/Agency.8bb4f6a10bcf474951c7.png",
     "static/media/logo.png": "/static/media/logo.f8c0a3065b2e593f9cfb.png",
+    "static/media/DIY.png": "/static/media/DIY.93dfea3c5597d1a6f7ae.png",
+    "static/media/Results.png": "/static/media/Results.131dd66a435adff7d8f6.png",
+    "static/media/Guarantee.png": "/static/media/Guarantee.8caa2a0c9e1633198f40.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.a16c9fce.css.map": "/static/css/main.a16c9fce.css.map",
-    "main.63acc2c1.js.map": "/static/js/main.63acc2c1.js.map",
+    "main.6e47260a.css.map": "/static/css/main.6e47260a.css.map",
+    "main.c0660b51.js.map": "/static/js/main.c0660b51.js.map",
     "453.39160ccf.chunk.js.map": "/static/js/453.39160ccf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a16c9fce.css",
-    "static/js/main.63acc2c1.js"
+    "static/css/main.6e47260a.css",
+    "static/js/main.c0660b51.js"
   ]
 }
