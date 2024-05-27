@@ -9,22 +9,12 @@ class Body extends React.Component{
         return(
             <div className="body-container">
                 <div className="problem-highlight-container">
-                    <p className="problem-highlight">Marketing is crucial, but it often gets buried under everything else you've got going on. As a business owner, you know how hectic things can get.</p>
+                    <h2 className="problem-highlight-title">Marketing is important...</h2>
+                    <p className="problem-highlight-paragraph">...but there are already 101 things on your to-do list. And they are all important too!</p>
                 </div>
                 <CloseContainer />
                 <h3 className="difference-title">"Okay... But What Makes You Different?"</h3>
                 <DifferenceSection />
-                <br />
-                <div className="CTA-container">
-                    <h3 className="CTA-title">So...</h3>
-                    <p className="CTA">Are you ready to grow your business? Right now, you have two options:</p>
-                    <br />
-                    <p className="CTA">You can take action and watch your business soar,</p>
-                    <br />
-                    <p className="CTA">Or you can stay where you are, making excuses for why things aren't changing.</p>
-                    <br />
-                    <p className="CTA">If you're serious about growth, I believe you know what your best move is:</p>
-                </div>
                 <br />
                 <br />
             </div>

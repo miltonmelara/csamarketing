@@ -9,7 +9,7 @@ const BlogItem = () => {
     return (
       <div className='blogItem'>
         <div className='image-holder'>
-          <img src={image} />
+          <img src={image} className='blog-image'/>
         </div>
         <div className='info-holder'>
           <p className='author'>{author}</p>

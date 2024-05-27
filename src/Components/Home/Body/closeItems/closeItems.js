@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './closeItems.css';
 import diyIcon from '../Icons/DIY.png';
 import agencyIcon from '../Icons/Agency.png';
-import partnershipIcon from '../Icons/Partnership.png';
+import staffIcon from '../Icons/Staff.png';
 
 const CloseItem = () => {
   // Function to create custom components with different values
@@ -24,21 +24,21 @@ const CloseItem = () => {
     const componentData = [
       { 
         title: ' Do Everything Yourself?', 
-        description1: "While the DIY approach may seem cost-effective, it's not always feasible when you're juggling multiple responsibilities.", 
-        description2: "Your time is precious, and spreading yourself too thin could hinder your business growth.",
+        description1: "That's fine if you have very little on your plate.", 
+        description2: "But if you're pretty swamped already... this isn't a viable option.",
         icon: diyIcon,
        },
       { 
-        title: 'Hire an Agency?', 
-        description1: 'Many agencies promise results, but not all deliver. Generic strategies and lack of personalized attention can leave you feeling disconnected.', 
-        description2: 'Plus, exorbitant fees often mean your account is managed by someone far removed from the frontline.',
-        icon: agencyIcon,
+        title: 'New staff?', 
+        description1: "Finding good people isn't easy. Training and onboarding staff is costly.", 
+        description2: "And even if you do find the perfect man or woman for the position... you're still depending on one person!",
+        icon: staffIcon,
       },
       { 
-        title: 'Our Model', 
-        description1: "Partnering with us means more than just another service provider. We become an integral part of your team, understanding your goals intimately.", 
-        description2: "As locals, we're embedded in your market, ensuring strategies are tailored and effective.",
-        icon: partnershipIcon,
+        title: 'Hire an agency?', 
+        description1: "Don't have a marketing budget of tens of thousands of euros? Then your account could end up being managed  by the intern of the assistants' assistant.",
+        description2: "Not exactly optimal.",
+        icon: agencyIcon,
       }
     ];
 

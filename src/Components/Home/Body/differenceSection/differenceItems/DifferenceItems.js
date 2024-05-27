@@ -26,25 +26,26 @@ const DifferenceItem = () => {
     const componentData = [
       { 
         title: 'Guarantee', 
-        description1: "We believe in shared success. Our 100% ROI guarantee means we only win when you win.", 
-        description2:"No more bearing all the risk alone. We're in this together.",
+        description1: "We only win if you win. That's the basis for a good partnership.",
+        description2:"You won't carry all the risk, we'll share it.",
         icon: guaranteeIcon,
-      },
-      { 
-        title: 'Local Expertise', 
-        description1: "As locals, we have a deep understanding of your market's nuances.", 
-        description2:"We're on the frontline, ensuring your strategies resonate with your target audience.",
-        icon: localIcon,
       },
       {
         title: 'Results',
         description1: "Our first priority is to get you results.",
-        description2: "Less talking and more doing.",
+        description2: "Less talk, more walk.",
         icon: resultsIcon,
       },
       { 
+        title: 'Local Expertise', 
+        description1: "We're not tucked away in some anonymous call center.",
+        description2: "We're a local company, so you'll be able to reach us when you need us.",
+        icon: localIcon,
+      },
+      { 
         title: 'Specialization', 
-        description1: 'We specialize in serving construction businesses, offering tailored solutions that deliver targeted and impactful results.',
+        description1: 'Jack of all trades... master of none. Specialization works',
+        description2: "That's why we work with industries we know, so we can guarantee results.",
         icon: specializationIcon,
       }
     ];
