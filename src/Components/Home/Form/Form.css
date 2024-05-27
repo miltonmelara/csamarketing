@@ -7,6 +7,10 @@
     background-color: #f0f0f0; /* Subtle gray background color */
   }
   
+  .form-title{
+    margin: 20px;
+    font-size: 35px;
+  }
   .application-form {
     display: flex;
     flex-direction: column;
