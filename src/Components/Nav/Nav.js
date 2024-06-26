@@ -17,7 +17,7 @@ class Nav extends React.Component {
                             <Link to='/'>Home</Link>
                         </li>
                         <li id='blog'>
-                            <Link to='/'>Blog</Link>
+                            <Link to='/blog'>Blog</Link>
                         </li>
                     </ul>
                 </nav>
